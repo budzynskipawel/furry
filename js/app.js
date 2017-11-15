@@ -40,7 +40,7 @@ Game.prototype.render = function() {
 
   } else {
     document.querySelector('#board').classList.add("hide");
-    document.querySelector('body').classList.add("red");
+    document.querySelector('body').classList.add("gameover");
     document.getElementById('over').style.display = "block";
     var again = document.getElementById('again');
 
